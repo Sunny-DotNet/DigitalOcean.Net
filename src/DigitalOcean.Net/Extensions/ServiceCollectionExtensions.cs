@@ -33,6 +33,22 @@ public static class ServiceCollectionExtensions
 {
     /// <summary>
     /// Adds the DigitalOcean API client to the service collection.
+    /// Token must be configured separately via <c>IConfiguration</c> binding or other means.
+    /// <para>
+    /// 将 DigitalOcean API 客户端添加到服务集合中。
+    /// 令牌需通过 <c>IConfiguration</c> 绑定或其他方式单独配置。
+    /// </para>
+    /// </summary>
+    /// <param name="services">The service collection. / 服务集合。</param>
+    /// <returns>The service collection for chaining. / 用于链式调用的服务集合。</returns>
+    public static IServiceCollection AddDigitalOceanClient(
+        this IServiceCollection services)
+    {
+        return AddDigitalOceanClient(services, _ => { });
+    }
+
+    /// <summary>
+    /// Adds the DigitalOcean API client to the service collection.
     /// 将 DigitalOcean API 客户端添加到服务集合中。
     /// </summary>
     /// <param name="services">The service collection. / 服务集合。</param>
