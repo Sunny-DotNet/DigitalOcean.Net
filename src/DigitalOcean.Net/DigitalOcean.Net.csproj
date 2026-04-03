@@ -52,6 +52,11 @@
     <PackageReference Include="Microsoft.Extensions.Options" Version="8.*" />
   </ItemGroup>
 
+  <!-- YAML support (for doctl config) -->
+  <ItemGroup>
+    <PackageReference Include="YamlDotNet" Version="16.*" />
+  </ItemGroup>
+
   <!-- Package content -->
   <ItemGroup>
     <None Include="..\..\README.md" Pack="true" PackagePath="\" />
