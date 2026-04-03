@@ -1,0 +1,61 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</TargetFrameworks>
+    <RootNamespace>DigitalOcean.Net</RootNamespace>
+    <AssemblyName>DigitalOcean.Net</AssemblyName>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+
+    <!-- NuGet Package Metadata -->
+    <PackageId>DigitalOcean.Net</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>Sunny</Authors>
+    <Company>Sunny</Company>
+    <Description>A comprehensive .NET client library for the DigitalOcean API, covering all 40+ resource categories including Droplets, Kubernetes, App Platform, Databases, and more. / 一个全面的 DigitalOcean API .NET 客户端库，覆盖全部 40+ 资源类别。</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/m67186636/DigitalOcean.Net</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/m67186636/DigitalOcean.Net</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>digitalocean;cloud;api;droplet;kubernetes;app-platform;database;vpc;load-balancer</PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <Copyright>Copyright (c) 2026 Sunny</Copyright>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+
+    <!-- Suppress warnings for generated code -->
+    <NoWarn>$(NoWarn);CS1591</NoWarn>
+  </PropertyGroup>
+
+  <!-- Multi-targeting polyfills -->
+  <ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.0'">
+    <PackageReference Include="Microsoft.Bcl.AsyncInterfaces" Version="8.*" />
+    <PackageReference Include="System.Text.Json" Version="8.*" />
+  </ItemGroup>
+
+  <ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.1'">
+    <PackageReference Include="System.Text.Json" Version="8.*" />
+  </ItemGroup>
+
+  <!-- Kiota runtime dependencies -->
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Kiota.Abstractions" Version="1.*" />
+    <PackageReference Include="Microsoft.Kiota.Http.HttpClientLibrary" Version="1.*" />
+    <PackageReference Include="Microsoft.Kiota.Serialization.Json" Version="1.*" />
+    <PackageReference Include="Microsoft.Kiota.Serialization.Text" Version="1.*" />
+    <PackageReference Include="Microsoft.Kiota.Serialization.Form" Version="1.*" />
+    <PackageReference Include="Microsoft.Kiota.Serialization.Multipart" Version="1.*" />
+  </ItemGroup>
+
+  <!-- DI support -->
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.*" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="8.*" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="8.*" />
+  </ItemGroup>
+
+  <!-- Package content -->
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+    <None Include="..\..\LICENSE" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+</Project>
