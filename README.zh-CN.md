@@ -6,7 +6,7 @@
 
 [![NuGet](https://img.shields.io/nuget/v/DigitalOcean.Net.svg)](https://www.nuget.org/packages/DigitalOcean.Net)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Build](https://github.com/m67186636/DigitalOcean.Net/actions/workflows/ci.yml/badge.svg)](https://github.com/m67186636/DigitalOcean.Net/actions/workflows/ci.yml)
+[![Build](https://github.com/Sunny-DotNet/DigitalOcean.Net/actions/workflows/ci.yml/badge.svg)](https://github.com/Sunny-DotNet/DigitalOcean.Net/actions/workflows/ci.yml)
 
 一个全面的 DigitalOcean API .NET 客户端库，覆盖**全部 40+ 资源类别**，包括 Droplets、Kubernetes、App Platform、Databases 等。基于 [DigitalOcean 官方 OpenAPI 规范](https://github.com/digitalocean/openapi) 自动生成。
 

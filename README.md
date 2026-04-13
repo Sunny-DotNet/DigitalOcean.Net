@@ -6,7 +6,7 @@
 
 [![NuGet](https://img.shields.io/nuget/v/DigitalOcean.Net.svg)](https://www.nuget.org/packages/DigitalOcean.Net)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Build](https://github.com/m67186636/DigitalOcean.Net/actions/workflows/ci.yml/badge.svg)](https://github.com/m67186636/DigitalOcean.Net/actions/workflows/ci.yml)
+[![Build](https://github.com/Sunny-DotNet/DigitalOcean.Net/actions/workflows/ci.yml/badge.svg)](https://github.com/Sunny-DotNet/DigitalOcean.Net/actions/workflows/ci.yml)
 
 A comprehensive .NET client library for the [DigitalOcean API](https://docs.digitalocean.com/reference/api/reference/), covering **all 40+ resource categories** including Droplets, Kubernetes, App Platform, Databases, and more.
 
