@@ -5,6 +5,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.1] - 2026-04-13
+
+### Changed / 变更
+- Updated repository URLs and documentation links after migrating the repository to `Sunny-DotNet/DigitalOcean.Net` / 仓库迁移到 `Sunny-DotNet/DigitalOcean.Net` 后，更新了仓库 URL 和文档链接
+
 ## [0.1.0] - 2026-04-03
 
 ### Added / 新增
