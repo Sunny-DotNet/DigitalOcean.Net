@@ -6,7 +6,7 @@
 
 [![NuGet](https://img.shields.io/nuget/v/DigitalOcean.Net.svg)](https://www.nuget.org/packages/DigitalOcean.Net)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Build](https://github.com/m67186636/DigitalOcean.Net/actions/workflows/ci.yml/badge.svg)](https://github.com/m67186636/DigitalOcean.Net/actions/workflows/ci.yml)
+[![Build](https://github.com/Sunny-DotNet/DigitalOcean.Net/actions/workflows/ci.yml/badge.svg)](https://github.com/Sunny-DotNet/DigitalOcean.Net/actions/workflows/ci.yml)
 
 [DigitalOcean API](https://docs.digitalocean.com/reference/api/reference/) 向けの包括的な .NET クライアントライブラリです。Droplets、Kubernetes、App Platform、Databases など、**40以上のリソースカテゴリすべて**をカバーしています。[DigitalOcean 公式 OpenAPI 仕様](https://github.com/digitalocean/openapi) から自動生成されています。
 

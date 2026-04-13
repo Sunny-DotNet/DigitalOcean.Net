@@ -13,15 +13,15 @@
     <Company>Sunny</Company>
     <Description>A comprehensive .NET client library for the DigitalOcean API, covering all 40+ resource categories including Droplets, Kubernetes, App Platform, Databases, and more. / 一个全面的 DigitalOcean API .NET 客户端库，覆盖全部 40+ 资源类别。</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageProjectUrl>https://github.com/m67186636/DigitalOcean.Net</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/m67186636/DigitalOcean.Net</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/Sunny-DotNet/DigitalOcean.Net</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Sunny-DotNet/DigitalOcean.Net</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>digitalocean;cloud;api;droplet;kubernetes;app-platform;database;vpc;load-balancer</PackageTags>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageIcon>logo.png</PackageIcon>
     <Copyright>Copyright (c) 2026 Sunny</Copyright>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
-    <PackageReleaseNotes>See https://github.com/m67186636/DigitalOcean.Net/blob/main/CHANGELOG.md</PackageReleaseNotes>
+    <PackageReleaseNotes>See https://github.com/Sunny-DotNet/DigitalOcean.Net/blob/main/CHANGELOG.md</PackageReleaseNotes>
 
     <!-- Suppress warnings for generated code -->
     <NoWarn>$(NoWarn);CS1591</NoWarn>
